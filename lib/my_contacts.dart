@@ -14,8 +14,7 @@ class MyContacts extends StatelessWidget {
     'github.png': 'https://github.com/alaa-karem',
     'linkedin.webp': 'https://www.linkedin.com/in/alaa-karem-602860223/',
     'whatsapp.png': 'https://wa.me/+201061585547',
-    'insta.webp':
-        'https://www.instagram.com/alaa_.karem/profilecard/?igsh=MjU4ZTBoYmE0cXR5',
+    'insta.webp': 'https://www.instagram.com/alaa_.karem/profilecard/?igsh=MjU4ZTBoYmE0cXR5',
     'telegram.png': 't.me/Alaa_Karem',
   };
 
@@ -68,6 +67,7 @@ class MyContacts extends StatelessWidget {
                       color: Colors.grey,
                     ),
                     onPressed: () {
+
                       // launchUrl(Uri.parse('tel:+201061585547'));
                     },
                   ),
